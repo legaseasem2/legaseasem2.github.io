@@ -1,0 +1,384 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+p{margin-bottom: 0px}
+
+
+.padding15{padding: 15px;}
+
+
+/*custom first*/
+
+.color1{color: #F2DC9B !important}
+.color2{color: #F2DBAE !important}
+.color3{color: #F2DABD !important}
+.color4{color: #260F01 !important}
+.color5{color: #BF2626 !important}
+
+.ls-none{
+	list-style: none;
+}
+.yellow-icon{
+	color: #260F01;
+}
+.nav-pills .nav-link {
+    border-radius: 0rem;
+}
+header .nav-link .cls-1 {
+    fill: #260F01;
+
+}
+header .nav-link:hover .cls-1 {
+    fill: #F2DC9B;
+
+}
+header .nav-link{
+	transition-duration: 0.8s;
+	border-radius: 0px;
+}
+header .nav-link:hover{
+	background: #260F01;
+	transition-duration: 0.3s;
+}
+/* Change navbar styling on scroll */
+header .navbar.active{
+	background: rgba(255,255,255,.8);
+	transition-duration: 0.5s
+}
+header .navbar.active:hover {
+    background: #260F01;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+	transition-duration: 0.3s
+}
+
+header .navbar.active:hover .yellow-icon, {
+	color: #F2DC9B;
+}
+
+header .navbar.active .nav-link:hover{
+	background: #F2DC9B;
+}
+
+header .navbar.active:hover .nav-link .cls-1 {
+    fill: #F2DC9B;
+}
+header .navbar.active .nav-link:hover .cls-1{
+	fill: #260F01;	
+}
+
+
+
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #DD1B22;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }	
+}
+
+
+
+
+/*transparent menu*/
+
+.logo-custom .logo {
+	fill: #260F01;
+}
+.logo-custom  .logo{
+/*	min-height: 80px;*/
+	max-height: 100px;
+	min-width: 90px;
+	float: left;
+	fill: #260F01;
+}
+.navbar.active:hover 
+.logo-custom.logo2 .logo{
+
+	fill: #F2DC9B;
+}
+
+/*logo custom*/
+
+.menu-item{
+	display: block;
+	min-width: 80px;
+	height: auto;
+}
+
+header .p-2{
+	padding: 0px !important;
+	background: none;
+	transition-duration: 0.8s;
+}
+header .nav-link{
+	padding: .6rem .6rem;
+}
+header .p-2:hover{
+/*	background: #F2DC9B;*/
+	transition-duration: 0.3s;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+	
+	header .nav-link{
+	margin: .6rem .6rem;
+}
+	
+	
+	.menu-item{
+		max-width: 4px !important;
+	}
+	.pb-3, .py-3 {
+    padding-bottom: 0.5rem!important;
+}
+	.pt-3, .py-3 {
+    padding-top: 0.5rem!important;
+}
+}
+@media (max-width: 576px) {
+	.menu-item{
+		max-width: 4px !important;
+	}
+}
+
+/*menu item*/
+
+
+
+@media (max-width: 800px) {
+	header .nav-link .cls-1 {
+    fill: #260F01;
+
+}
+header .nav-link:hover .cls-1 {
+    fill: #F2DC9B;
+
+}
+header .nav-link{
+	transition-duration: 0.8s;
+	border-radius: 0px;
+}
+header .nav-link:hover{
+	background: #260F01;
+	transition-duration: 0.3s;
+}
+/* Change navbar styling on scroll */
+header .navbar.active{
+	background: white;
+	transition-duration: 0.5s
+}
+	header .navbar.active .nav-link .cls-1, header .logo{
+		fill: #260F01 !important;
+	}
+header .navbar.active:hover {
+    background: white;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+	transition-duration: 0.3s
+}
+
+header .navbar.active:hover .yellow-icon, header .logo{
+	color: #260F01;
+}
+	header .navbar.active .nav-link .cls-1{
+		fill: #260F01;
+	}
+header .navbar.active .nav-link:hover{
+	background: #260F01;
+}
+
+header .navbar.active:hover .nav-link .cls-1 {
+    fill: #F2DC9B;
+}
+header .navbar.active .nav-link:hover .cls-1{
+	fill: #F2DC9B !important;	
+}
+
+
+
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #DD1B22;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+}
+
+
+
+/*header iPad & mobile*/
+
+
+/*header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background: #260F01;
+	min-height: 100px;
+}
+
+
+footer .footer-item{
+	display: block;
+	min-width: 80px;
+	height: auto;
+	fill: #F2DBAE;
+	border-left: solid 1px #F2DBAE;
+	transition-duration: 0.8s;
+}
+footer .footer-last-item{
+	border-right: solid 1px #F2DBAE;
+}
+footer .cls-1{
+	fill: #F2DC9B;
+}
+footer .footer-item:hover{
+	background: #F2DC9B;
+	transition-duration: 0.3s;
+}
+footer .footer-item:hover .cls-1{
+	fill: #260F01;
+
+}
+footer .nav-pills .nav-link{
+	border-radius: 0px;
+	padding: .9rem 1rem;
+}
+.margin-lr-10px{
+	margin: 0 10px;
+}
+.social-icon{
+	color: #F2DC9B;
+	opacity: 20%;
+	transition-duration: 0.8s;
+}
+.social-icon:hover{
+	opacity: 1;
+	transition-duration: 0.2s;
+}
+@media (max-width: 576px) {
+	footer .footer-item{
+		max-width: 20px !important;
+/*		min-width: 60px;*/
+	}
+	footer .pb-3, .py-3 {
+    padding-bottom: 0.5rem!important;
+}
+	footer .pt-3, .py-3 {
+    padding-top: 0.5rem!important;
+}
+	footer .legasea-tittle{
+	display: none;
+}
+	
+	
+	footer .footer-logo{
+		margin-top: 25px;
+	}
+	
+	.footer-margin-bottom-tablet-mb{
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 1200px){
+	footer .footer-item{
+		max-width: 40px !important;
+		min-width: 68px;
+	}
+	footer .legasea-tittle{
+	display: none;
+}
+	
+	.footer-margin-bottom-tablet-mb{
+		margin-bottom: 30px;
+	}
+}
+/*footer item*/
+
+
+
+
+/*footer info*/
+
+
+
+
+
+
+/*back to top*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #260F01; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+	width: 60px;
+	transition-duration: 0.5s;
+}
+#myBtn .btn-backtop{
+	color: #F2DC9B;
+	
+
+	
+}
+#myBtn:hover {
+  background-color: #F2DC9B; /* Add a dark-grey background on hover */
+	transition-duration: 0.2s;
+}
+#myBtn:hover .btn-backtop{
+	color: #260F01;
+}

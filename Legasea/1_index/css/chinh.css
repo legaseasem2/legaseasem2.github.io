@@ -1,0 +1,314 @@
+/* CSS Document */
+.padding0{padding: 0;}
+.margin0{margin: 0}
+.margin-top20px{ margin-top: 20px}
+.margin-top30px{ margin-top: 30px}
+
+
+.margin-top70{margin-top: 70%}
+.margin-top30{margin-top: 30%}
+.margin-top20{margin-top: 20%}
+.margin-top10{margin-top: 10%}
+.margin-top7{margin-top: 7%}
+.margin-top5{margin-top: 5%}
+.margin-top2{margin-top: 2%}
+
+.margin-video{margin-top: 7%}
+
+.t-center{ text-align: center}
+.t-right{ text-align: right}
+.t-left{ text-align: left}
+.f-right{float:right}
+.clearfix{ clear: both; height: 0}
+.center-block{ margin: auto; display: block}
+.canhtrungtam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.chudoc-trungtam{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;}
+
+body{
+	background-image: url("../Hinh-anh/Background Legasea 2-01.png");
+	background-size: cover;
+	background-position: center;
+	background-color: white;
+}
+.color1{color: #F2DC9B !important}
+.color2{color: #F2DBAE !important}
+.color3{color: #F2DABD !important}
+.color4{color: #260F01 !important}
+.color5{color: #BF2626 !important}
+
+
+@font-face {
+  font-family: iCiel;
+  src: url(../Font/iCiel-Simplifica.otf);
+}
+.font1{
+	font-family: iCiel;
+	font-weight: 900;
+}
+.chu-thuong{font-family: iCiel; font-size: 25px; color: #260F01; }	
+
+.chu-kieu-do-30{font-family: 'Grand Hotel', cursive; font-size: 30px; line-height: 0.6; color: #BF2626}
+.chu-kieu-do{font-family: 'Grand Hotel', cursive; font-size: 60px; line-height: 0.6; color: #BF2626}	
+.chu-kieu-do-90{font-family: 'Grand Hotel', cursive; font-size: 90px; line-height: 0.6; color: #BF2626}
+
+.chu-kieu-trang{font-family: 'Grand Hotel', cursive; font-size: 70px; line-height: 0.6; color: #E5E5E5; text-align: center}
+
+.chu-kieu-den{font-family: 'Grand Hotel', cursive; font-size: 30px; line-height: 1.1; color: #260F01}
+.chu-kieu-den-50{font-family: 'Grand Hotel', cursive; font-size: 60px; line-height: 0.8; color: #260F01}
+.chu-kieu-den-60{font-family: 'Grand Hotel', cursive; font-size: 60px; line-height: 0.8; color: #260F01}
+.chu-kieu-den-90{font-family: 'Grand Hotel', cursive; font-size: 90px; line-height: 0.8; color: #260F01}
+
+@media(max-width:1024px){
+	.chu-kieu-den-90{font-size: 60px}
+	.chu-kieu-den-60{font-size: 40px}
+	.chu-kieu-do-30{font-size: 16px}
+	
+	.margin-video{margin-top: 13.1%}
+}
+
+@media(max-width:760px){
+	.chu-thuong{font-size: 18px}
+	.chu-kieu-den-90{font-size: 60px}
+	.chu-kieu-do-30{font-size: 18px}
+	
+	.margin-video{margin-top: 23.8%}
+}
+
+
+
+/*                    SLIDER #####*/
+
+.slider{
+	background-color: white;
+/*	background-image: url("../Hinh-anh/91513.jpg");*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	min-height: 100px;
+/*	padding: 50px 0;*/
+}
+
+.format-video{
+/*	border: 5px solid #260F01;*/
+	box-shadow: 2px 10px 50px 10px #88888;
+}
+
+
+/*                              SECTION 1 ####*/
+.margin-section{
+	margin-top: 100px;
+}
+.border-3box-den{border-bottom: 3px solid #260F01;}
+@media(max-width:760px){
+	.margin-section{margin-top: 65px;}
+	.box2{float: right}
+	.border-3box-den{border-bottom: none;}
+}
+
+
+
+
+
+
+
+/*                              SECTION zic zac ####*/
+.border-do{
+	border: 3px solid #BF2626;
+	padding:30px 10px;
+}
+.border-do p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.border-trang{
+	border: 2px solid #E5E5E5;
+	padding: 50px;
+	background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,0.3253676470588235) 0%, rgba(255,255,255,0.30575980392156865) 100%);
+}
+.border-trang p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.box-shadow{
+	box-shadow: 2px 3px 5px 2px #888888;
+}
+.dt-an{}
+.xoay90 p{
+	transform: rotate(90deg);
+	transform-origin: 0 0;
+	text-align: justify;
+	height: 20px;
+	width: 600px;
+}
+@media(max-width:760px){
+	.chu-thuong{font-size: 18px}
+	.dt-an{display: none}
+	.chu-kieu-den-50{font-size: 22px}
+}
+.viendo-2ben{
+	border-left: 3px solid #BF2626;
+	border-right: 3px solid #BF2626;
+	width: 70%;
+	
+}
+.flex-item-center{
+	display: flex;
+  align-items: center;
+}
+
+
+
+/*                              SECTION HINH DAI ####*/
+.hinhdai{
+	margin-top: 100px;
+	
+}
+.picture-dai{
+	border: 4px solid #260F01;
+}
+@media(max-width:760px){
+	.hinhdai{ margin-top: 70px;}
+	.picture-dai{
+	border: 2px solid #260F01;
+	
+}
+	.tittle_mobile_hide{
+		margin-top: 0px;
+	}
+}
+
+/*                              SECTION HINH TO 1 NUA ####*/
+.border-den{ border: 3px solid #260F01}
+.gachchan-do{text-decoration: underline}
+.hinh1nua{	height: auto;}
+
+@media(max-width:760px){
+	.border-den{ border: 1px solid #260F01}
+	.hinh1nua{	height: 200px;}
+	.chu-decor-do{margin-top: 120%; }
+}
+
+/*                                                     HINH 1 NUA FULL WIDTH     */
+.hinh1nua-fullwidth{ padding-top: 100px }
+@media(max-width:760px){
+	.hinh1nua-fullwidth{ padding-top: 30px }
+}
+
+
+
+/*                                                     THU VIEN HINH       */
+.thuvienhinh{ padding-top: 100px }
+@media(max-width:760px){
+.thuvienhinh{ padding-top: 30px }
+}
+
+/*                                                     3 BOX DOC       */
+.box-doc{
+	background: white;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+/*                                                    CO HINH KHUNG TRON       */
+.box-2chu-songsong{float: right!important; padding-top: 10px}
+@media(max-width:760px){
+	.mar-mobile-45{
+		margin-top: 45px;
+	}
+}
+/*-------------------------------------------*/
+.crop-hinh{
+	object-fit: none;
+	object-position: center;
+}
+@media(max-width:1024px){
+	.cut-text{display: none}		
+}
+
+/*                          HOVER         */
+
+.border-3box-den:hover {
+	border-bottom: 3px solid #BF2626;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+.border-3box-den:hover .chu-kieu-den-60{
+	color: #BF2626;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+.hinh-trangden{filter: grayscale(100%)}
+.hinh-trangden:hover {
+	filter: grayscale(0%);
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.hv-1{
+	transition-duration: 0.3s;
+}
+.hv-1:hover {
+	transition-duration: 0.4s;
+	cursor: pointer;
+/*	box-shadow: inset 0 0 0 15px #260F01;*/
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+.hv-2{
+	transition-duration: 0.4s
+}
+.hv-2:hover {
+	transition-duration: 0.3s;
+	cursor: pointer;
+	 box-shadow:
+                1px 1px #888888,
+                2px 2px #888888,
+                3px 3px #888888;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+.hv-nut{
+	transition-duration: 0.5s;
+}
+.hv-nut:hover {
+	transition-duration: 0.3s;
+	cursor: pointer;
+	background: #BF2626;
+	color: white;
+}
+
+a {text-decoration: none !important}
+
+
+
+
+
+
+
+
+
